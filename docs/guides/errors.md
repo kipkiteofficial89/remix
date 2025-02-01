@@ -39,7 +39,7 @@ export function ErrorBoundary() {
 }
 ```
 
-You'll want to make sure to still render the [`Links`][links-component], [`Meta`][meta-component], and [`Scripts`][scripts-component] components because the whole document will mount and unmount when the root error boundary is rendered.
+You'll want to make sure to render the [`Links`] still [links-component], [`Meta`][meta-component], and [`Scripts`][scripts-component] components because the whole document will mount and unmount when the root error boundary is rendered.
 
 ## Nested Error Boundaries
 
